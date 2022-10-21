@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+div#main {
+    text-align: center;
+    display: block;
+    background-color: rgba(1, 1, 1, 0.8);
+    border-radius: 50px;
+    height: 150px;
+    width: 350px;
+    margin: auto;
+    margin-top: 20%;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+p {
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: -3%;
+    color: white;
+    text-align: center;
+}
+
+p#countdown {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+button {
+    display: inline-block;
+    margin-top: 2%;
+    margin-bottom: 7.5%;
+    padding: 15px 32px;
+    color: white;
+    font-size: 14;
+    font-weight: 700;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.95);
+}
+
+button:disabled {
+    color: lightgray;
+    opacity: 0.5;
+    background-color: #343434;
+}
+
+button:hover {
+    color: black;
+    background-color: rgba(102, 255, 64, 0.904);
+}
